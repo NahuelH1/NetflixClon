@@ -1,0 +1,22 @@
+.Header{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 63%); 
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.Header-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+}
+.Header-list :hover{
+   color: rgb(206, 202, 202);
+   cursor: pointer;
+}

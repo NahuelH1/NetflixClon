@@ -1,0 +1,7 @@
+.Top10--MovieList{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: fit-content;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono:wght@100&display=swap');
+html{
+    background-color: #141414;
+    color: white;
+}
+.title{
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+}
+.profiles__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.usersList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    width: 50vw;
+
+}
+.user{
+  text-align: center;
+  line-height: 2px;
+  padding-bottom: 10px;
+  color: gray;
+}
+.user:hover img{
+  outline: 3px solid black;
+}
+.user:hover p {
+  color: white;
+}
+.user:hover{
+  cursor: pointer;
+}
+
+.user img{
+  border-radius: 5px;
+}
+.button_ProfileManagment{
+    background: none;
+    border: 1px solid gray;
+    color: gray;
+    font-weight: 400;
+    font-family:Helvetica, sans-serif;
+    padding: 5px 20px;
+    font-size: 17px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.button_ProfileManagment:hover{
+  color: white;
+  cursor: pointer;
+}
+.profiles{
+  height: 100vh;
+
+}
